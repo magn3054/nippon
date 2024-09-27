@@ -1,0 +1,11 @@
+/* Logo font-family: electroharmonix; */
+@font-face {
+    font-family: 'Nuku Nuku';
+    src: url('../fonts/nuku1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+H1 {
+    font-family: "Nuku Nuku";
+}
