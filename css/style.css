@@ -1,14 +1,14 @@
+:root {
+    --nipponRed: #BC002D;
+    --nipponBlue: #023455;
+    --nipponBlack: #1E1E1E;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
-}
-
-:root {
-    --nipponRed: #BC002D;
-    --nipponBlue: #023455;
-    --nipponBlack: #1E1E1E;
 }
 
 /* Logo font-family: electroharmonix; */
@@ -27,8 +27,10 @@
 }
 
 body {
-    min-width: 100dvw;
+    max-width: 100dvw;
+    width: auto;
     min-height: 100dvh;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 H1 {

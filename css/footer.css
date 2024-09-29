@@ -2,24 +2,32 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    min-height: 4rem;
+    align-items: center;
+    bottom: 0;
+    border: red 1px solid;
 }
 
 #f-logo {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 1rem 2rem;
     border: blue 1px solid;
 }
 
 #f-container {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 0px 20px 0 10px;
+    width: 100%;
+    height: 100%;
     border: blue 1px solid;
+    
 }
 
 .f-text {
-    margin: 10px;
+    margin: 1rem 1.5rem;
     border: blue 1px solid;
 }
 
@@ -28,7 +36,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 33%;
 }
 
 .f-mid {
@@ -36,7 +44,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 33%;
 }
 
 .f-right {
@@ -44,5 +52,5 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 33%;
 }
