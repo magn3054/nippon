@@ -11,18 +11,32 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <!-- <picture>
-            <source srcset="img/top_image.webp" type="image/webp">
-            <img src="img/top_image.png" alt="Nippon - Asiatiske Måltidskasser">
-        </picture> -->
-    </header>
-    <section></section>
-    <section></section>
-    <section>
-        <article></article>
-        <article></article>
-        <article></article>
+    <?php include 'header.php'; ?>
+    <section class="top-banner">
+        <img src="img/LS_stand-in.png" alt="">
+    </section>
+    <section class="mid-section">
+        <article>
+            <h4>Some title for the section</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iusto quos voluptate repellat, quasi minima, autem quae molestias nihil doloremque sequi enim! Et, ipsa quam. Fugiat doloribus enim quos deleniti.
+            Voluptatum eius nisi illum voluptatem voluptas deserunt. Dolorem, dolore, laborum expedita necessitatibus eos officiis exercitationem earum distinctio, amet commodi explicabo? Qui labore quos ab amet sint iusto recusandae assumenda cumque!
+            Totam, nostrum beatae pariatur vitae omnis ullam eaque recusandae porro nesciunt quo. Laudantium expedita suscipit porro voluptas praesentium odit, deleniti fugit vero? Ratione magnam fugiat quaerat recusandae mollitia neque laudantium quia.</p>
+        </article>
+        <img src="img/SQ_stand-in.png" alt="">
+    </section>
+    <section class="bot-section">
+        <article>
+            <img src="img/SQ_stand-in.png" alt="">
+            <h4>Image title 1</h4>
+        </article>
+        <article>
+            <img src="img/SQ_stand-in.png" alt="">
+            <h4>Image title 2</h4>
+        </article>
+        <article>
+            <img src="img/SQ_stand-in.png" alt="">
+            <h4>Image title 3</h4>
+        </article>
     </section>
     <?php include 'footer.php'; ?>
 </body>
