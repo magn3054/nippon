@@ -13,7 +13,7 @@
 <body>
     <?php include 'header.php'; ?>
     <section class="top-banner">
-        <img src="img/LS_stand-in.png" alt="">
+        <img src="img/ls_stand-in.png" alt="">
     </section>
     <section class="mid-section">
         <article>
