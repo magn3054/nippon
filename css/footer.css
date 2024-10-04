@@ -59,12 +59,14 @@ footer {
     
     & .socials {
         display: grid;
-        width: 250%;
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        border: blue 1px solid;
 
         & img {
-            max-height: 100%;
+            border: blue 1px solid;
+            max-height: 50%;
         }
     }
 
