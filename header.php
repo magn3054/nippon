@@ -5,7 +5,7 @@
         <h3>Opskrifter</h3>
         <h3>Sådan Fungerer Det</h3>
         <h3>Abonnement</h3>
-        <h3>Om Os</h3>
+        <h3>Om os</h3>
     </div>
     <div class="icons-menu">
         <img class="icons" id="heart" src="img/heart.svg" alt="Hjerte - Synes godt om">
