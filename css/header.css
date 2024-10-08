@@ -12,6 +12,7 @@ header {
 
 #main-logo {
     height: 4rem;
+    min-width: 4rem;
     margin: 0.75rem 2rem 0.75rem 2rem;
 }
 

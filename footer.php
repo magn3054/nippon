@@ -30,17 +30,19 @@
     <section class="f-some">
         <div class="f-tekst">
             <h3>so-me</h3>
-            <div class="socials">
-                <img src="img/insta.svg" alt="Instagram"><img src="img/facebook.svg" alt="Facebook">
-                <img src="img/tiktok.svg" alt="Tiktok"><img src="img/youtube.svg" alt="Youtube">
-            </div>
+        </div>
+        <div class="f-icons">
+            <img src="img/insta.svg" alt="Instagram">
+            <img src="img/facebook.svg" alt="Facebook">
+            <img src="img/tiktok.svg" alt="Tiktok">
+            <img src="img/youtube.svg" alt="Youtube">
         </div>
     </section>
-    <div class="f-app">
+    <section class="f-qr">
         <img class="qr" src="img/qr-code.png" alt="QR-code">
-        <div class="app-store">
-            <img src="img/appstore.png" alt="">
-            <img src="img/playstore.png" alt="">
-        </div>
-    </div>
+    </section>
+    <section class="f-app">
+        <img src="img/appstore.png" alt="">
+        <img src="img/playstore.png" alt="">
+    </section>
 </footer>
