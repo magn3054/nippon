@@ -6,23 +6,23 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid red;
-}
-
-h1 {
-    font-family: "Nuku Nuku";
-    font-size: 3vw;
-    color: var(--nipponRed);
-    margin-bottom: 1.5vw;
-}
-
-p {
-    font-size: 1.2vw;
-}
-
-img {
-    width: 30%;
-    margin: 2vw;
-    height: fit-content;
-    object-fit: cover;
-    cursor: pointer;
+    
+    & h1 {
+        font-family: "Nuku Nuku";
+        font-size: 3vw;
+        color: var(--nipponRed);
+        margin-bottom: 1.5vw;
+    }
+    
+    & p {
+        font-size: 1.2vw;
+    }
+    
+    & img {
+        width: 30%;
+        margin: 2vw;
+        height: fit-content;
+        object-fit: cover;
+        cursor: pointer;
+    }
 }

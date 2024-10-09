@@ -6,7 +6,10 @@
     <title>Nippon 404 Error</title>
     <script defer src="js/errorpage.js"></script>
     <script defer src="js/links.js"></script>
+    <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/error-page.css">
 </head>
 <body>
