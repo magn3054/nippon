@@ -1,8 +1,6 @@
-* {
-}
-
 footer {
-    width: 100dvw;
+    width: 100vw;
+    max-width: 99.25dvw;
     bottom: 0;
     padding: 5rem 0;
     background-color: var(--nipponRed);
@@ -10,17 +8,23 @@ footer {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     color: white;
+    overflow-x: hidden;
 
     & section {
         display: flex;
         flex-direction: column;
         width: 20dvw;
         max-height: 16.5rem;
+        overflow-x: hidden;
     }
 
     & h3 {
         font-family: "Nuku Nuku";
         margin-bottom: 0.5rem;
+    }
+
+    & p { 
+        cursor: pointer; 
     }
 }
 
@@ -55,6 +59,10 @@ footer {
     display: flex;
     align-items: center;
     max-height: calc(16.5rem/2);
+
+    & p {
+        cursor: default;
+    }
 }
 
 .f-some { 
@@ -63,6 +71,7 @@ footer {
     flex-direction: column;
     align-items: center;
     max-height: calc(16.5rem/2);  
+    overflow-x: hidden;
 
     & .f-tekst {
         min-height: fit-content;
@@ -74,8 +83,10 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
+        overflow-x: hidden;
+        
         & img {
+            cursor: pointer;
             height: 50%;
             width: 50%;
             max-height: auto;
@@ -94,6 +105,8 @@ footer {
     & img {
         width: auto;
         height: auto;
+        border-radius: 0.1vw;
+        overflow-x: hidden;
     }
 }
 
@@ -103,9 +116,12 @@ footer {
     align-items: center;
     justify-content: center;
     max-height: calc(16.5rem/2);
+    overflow-x: hidden;
 
     & img {
+        cursor: pointer;
         width: auto;
         margin: 0.25rem;
+        overflow-x: hidden;
     }
 }

@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* Logo font-family: electroharmonix; */
@@ -31,8 +31,17 @@ body {
     width: auto;
     min-height: 100dvh;
     font-family: Verdana, Tahoma, sans-serif;
+    cursor: default;
 }
 
 H1 {
     font-family: "Nuku Nuku";
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 0.5vw;
 }

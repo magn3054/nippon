@@ -8,30 +8,31 @@ body {
 
 .top-banner {
     width: 80%;
-    padding: 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 3vh 2vw;
+    background-color: #e3dbdb;
+    display: grid;
+    grid-template-columns: 1fr min-content min-content min-content 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(12, min-content);
 
     & img {
+        grid-area: 1 / 1 / 13 / 9;
         width: 100%;
     }
 
     & .nippon-scraper {
+        grid-area: 4 / 3 / 4 / 3;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        position: absolute;
-        font-family: electroharmonix;
+        font-family: "electroharmonix";
         color: white;
-        font-size: 4.5rem;
-        transform: translate(-30rem, 15rem);
+        font-size: 3vw;
 
         & p {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 1rem 2rem;
+            padding: 1rem 3vw;
         }
         & .p:nth-of-type(1) { grid-area: 1 / 1 / 2 / 2; }
         & .p:nth-of-type(2) { grid-area: 1 / 2 / 2 / 3; }
@@ -42,23 +43,23 @@ body {
     }
 
     & a {
-        position: absolute;
+        /* position: absolute; */
+        grid-area: 6 / 2 / 7 / 5;
         
         & .ugens-menu {
             position: inherit;
             font-family: "nuku nuku";
             color: white;
-            font-size: 3rem;
+            font-size: 2.5vw;
             background-color: var(--nipponRed);
             min-width: max-content;
-            padding: 1rem 2rem;
-            transform: translate(-40rem, 40rem);
+            padding: 1vh 1vw;
         }
     }
 }
 
 .mid-section {
-    background-color: rgb(227, 219, 219);
+    background-color: #e3dbdb;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,25 +69,26 @@ body {
 
     & article {
         width: 50%;
-        padding: 2rem 10rem 2rem 2.5rem;
+        padding: 2vh 5vw 2vh 2.5vw;
         line-height: 2.5;
 
         & h4 {
             font-family: "Nuku Nuku";
-            font-size: 2.5rem;
-            margin-bottom: 0.25rem;
+            font-size: 2vw;
+            margin-bottom: 0.25vh;
             color: var(--nipponRed);
-            letter-spacing: 0.2rem;
+            letter-spacing: 0.2vw;
         }
 
         & p {
-            font-size: 1.1rem;
+            font-size: 1vw;
         }
     }
 
     & img {
+        border-radius: 0.5vw;
         width: 50%;
-        padding: 2rem 2rem 2rem 10rem;
+        margin: 2.5vh 2vw 2.5vh 2.5vw;
     }
 }
 
@@ -95,26 +97,26 @@ body {
     flex-direction: row;
     width: 80%;
     min-height: min-content;
-    margin: 2rem;
+    margin: 2vw;
 
     & article {
         display: flex;
         flex-direction: column;
         width: 50%;
-        padding: 2rem 5rem;
+        padding: 2.5vh 3vw;
+        background-color: #e3dbdb;
 
         & h4 {
             font-family: "Nuku Nuku";
-            font-size: 2.15rem;
-            margin-bottom: 0.25rem;
+            font-size: 1.75vw;
+            margin-bottom: 0.25vh;
             color: var(--nipponRed);
-            letter-spacing: 0.2rem;
+            letter-spacing: 0.2vw;
             align-self: center;
         }
     }
 
     & img {
-        border-radius: 0.5rem;
         width: auto;
         margin-bottom: 1rem;
     }

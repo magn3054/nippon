@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nippon - Asiatiske Måltidskasser</title>
-    <script defer src="js/index.js"></script>
-    <link rel="icon" href="img/favicon.ico" type="img/">
+    <script defer src="js/links.js"></script>
+    <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -13,18 +13,53 @@
 </head>
 <body>
     <header>
-        <img id="main-logo" src="img/hvid-fisk.png" alt="Logo">
+        <img onclick="gennemLoader('error-page.html', '5')" id="main-logo" src="img/hvid-fisk.png" alt="Logo">
         <div id="submenus">
-            <h3>Vores Måltidskasser</h3>
-            <h3>Opskrifter</h3>
-            <h3>Sådan Fungerer Det</h3>
-            <h3>Abonnement</h3>
-            <h3>Om os</h3>
+            <div class="menu-item">
+                <h3>Vores Måltidskasser</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Ugens Menu</p>
+                    <p onclick="failPage()">Budget Kassen</p>
+                    <p onclick="failPage()">Hurtig Kassen</p>
+                    <p onclick="failPage()">Sundere Livstil Kassen</p>
+                    <p onclick="failPage()">Pescetar Kassen</p>
+                    <p onclick="failPage()">Vegetar Kassen</p>
+                    <p onclick="failPage()">Øko Kassen</p>
+                </div>
+            </div>
+            <div class="menu-item">            
+                <h3>Opskrifter</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Nudler</p>
+                    <p onclick="failPage()">Sushi</p>
+                    <p onclick="failPage()">Ris</p>
+                    <p onclick="failPage()">Grønt</p>
+                </div>
+            </div>
+            <div class="menu-item">    
+                <h3 onclick="failPage()">Sådan Fungerer Det</h3>
+            </div>
+            <div class="menu-item">
+                <h3>Abonnement</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Fuldtid</p>
+                    <p onclick="failPage()">Flexi</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h3>Om os</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Kontakt</p>
+                </div>
+            </div>
+
         </div>
         <div class="icons-menu">
-            <img class="icons" id="heart" src="img/heart.svg" alt="Hjerte - Synes godt om">
-            <img class="icons" id="basket" src="img/basket.svg" alt="">
-            <img class="icons" id="profile" src="img/profile.svg" alt="heart">
+            <img onclick="failPage()" class="icons" id="heart" src="img/heart.svg" alt="Hjerte">
+            <div class="icons basket-container">
+                <img onclick="failPage()" id="basket" src="img/basket.svg" alt="Kurv">
+            </div>
+            <img onclick="failPage()" class="icons" id="profile" src="img/profile.svg" alt="Profil">
         </div>
     </header>
     <!-- <?php include 'header.php'; ?> -->
@@ -67,18 +102,18 @@
     <footer>
         <section class="f-nippon">
             <div class="f-tekst">
-                <h3>nippon</h3>
-                <p>Smiley rapport</p>
-                <p>Jobs</p>
-                <p>Presse</p>
-                <p>Studierabat</p>
+                <h3 onclick="failPage()">nippon</h3>
+                <p onclick="failPage()">Smiley rapport</p>
+                <p onclick="failPage()">Jobs</p>
+                <p onclick="failPage()">Presse</p>
+                <p onclick="failPage()">Studierabat</p>
             </div>
         </section>
         <section class="f-politik">
             <div class="f-tekst">
-                <h3>vores politik</h3>
-                <p>Privatlivspolitik</p>
-                <p>Handelsbetingelser</p>
+                <h3 onclick="failPage()">vores politik</h3>
+                <p onclick="failPage()">Privatlivspolitik</p>
+                <p onclick="failPage()">Handelsbetingelser</p>
             </div>
         </section>
         <div class="f-logo">
@@ -98,18 +133,18 @@
                 <h3>so-me</h3>
             </div>
             <div class="f-icons">
-                <img src="img/insta.svg" alt="Instagram">
-                <img src="img/facebook.svg" alt="Facebook">
-                <img src="img/tiktok.svg" alt="Tiktok">
-                <img src="img/youtube.svg" alt="Youtube">
+                <img onclick="failPage()" src="img/insta.svg" alt="Instagram">
+                <img onclick="failPage()" src="img/facebook.svg" alt="Facebook">
+                <img onclick="failPage()" src="img/tiktok.svg" alt="Tiktok">
+                <img onclick="failPage()" src="img/youtube.svg" alt="Youtube">
             </div>
         </section>
         <section class="f-qr">
             <img class="qr" src="img/qr-code.png" alt="QR-code">
         </section>
         <section class="f-app">
-            <img src="img/appstore.png" alt="">
-            <img src="img/playstore.png" alt="">
+            <img onclick="failPage()" src="img/appstore.png" alt="">
+            <img onclick="failPage()" src="img/playstore.png" alt="">
         </section>
     </footer>
 </body>

@@ -1,18 +1,18 @@
 <footer>
     <section class="f-nippon">
         <div class="f-tekst">
-            <h3>nippon</h3>
-            <p>Smiley rapport</p>
-            <p>Jobs</p>
-            <p>Presse</p>
-            <p>Studierabat</p>
+            <h3 onclick="failPage()">nippon</h3>
+            <p onclick="failPage()">Smiley rapport</p>
+            <p onclick="failPage()">Jobs</p>
+            <p onclick="failPage()">Presse</p>
+            <p onclick="failPage()">Studierabat</p>
         </div>
     </section>
     <section class="f-politik">
         <div class="f-tekst">
-            <h3>vores politik</h3>
-            <p>Privatlivspolitik</p>
-            <p>Handelsbetingelser</p>
+            <h3 onclick="failPage()">vores politik</h3>
+            <p onclick="failPage()">Privatlivspolitik</p>
+            <p onclick="failPage()">Handelsbetingelser</p>
         </div>
     </section>
     <div class="f-logo">
@@ -32,17 +32,17 @@
             <h3>so-me</h3>
         </div>
         <div class="f-icons">
-            <img src="img/insta.svg" alt="Instagram">
-            <img src="img/facebook.svg" alt="Facebook">
-            <img src="img/tiktok.svg" alt="Tiktok">
-            <img src="img/youtube.svg" alt="Youtube">
+            <img onclick="failPage()" src="img/insta.svg" alt="Instagram">
+            <img onclick="failPage()" src="img/facebook.svg" alt="Facebook">
+            <img onclick="failPage()" src="img/tiktok.svg" alt="Tiktok">
+            <img onclick="failPage()" src="img/youtube.svg" alt="Youtube">
         </div>
     </section>
     <section class="f-qr">
         <img class="qr" src="img/qr-code.png" alt="QR-code">
     </section>
     <section class="f-app">
-        <img src="img/appstore.png" alt="">
-        <img src="img/playstore.png" alt="">
+        <img onclick="failPage()" src="img/appstore.png" alt="">
+        <img onclick="failPage()" src="img/playstore.png" alt="">
     </section>
 </footer>
