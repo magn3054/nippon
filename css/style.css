@@ -33,6 +33,10 @@ body {
     min-height: 100dvh;
     font-family: Verdana, Tahoma, sans-serif;
     cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/baggrund.png);
 }
 
 H1 {

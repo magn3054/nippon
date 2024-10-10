@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nippon - Asiatiske Måltidskasser</title>
     <script defer src="js/links.js"></script>
+    <script defer src="js/scrollToTop.js"></script>
     <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/scrollToTop.css">
 </head>
 <body>
     <?php include 'header.php'; ?>
+
     <section class="top-banner">
         <img src="img/baggrundsbillede.png" alt="">
         <div class="nippon-scraper">
@@ -28,26 +31,27 @@
     <section class="mid-section">
         <article>
             <h4>Studierabat?</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem iusto quos voluptate repellat, quasi minima, autem quae molestias nihil doloremque sequi enim! Et, ipsa quam. Fugiat doloribus enim quos deleniti.
-            Voluptatum eius nisi illum voluptatem voluptas deserunt. Dolorem, dolore, laborum expedita necessitatibus eos officiis exercitationem earum distinctio, amet commodi explicabo? Qui labore quos ab amet sint iusto recusandae assumenda cumque!
-            Totam, nostrum beatae pariatur vitae omnis ullam eaque recusandae porro nesciunt quo. Laudantium expedita suscipit porro voluptas praesentium odit, deleniti fugit vero? Ratione magnam fugiat quaerat recusandae mollitia neque laudantium quia.</p>
+            <p>Er du studerende og på udkig efter nemme, lækre måltider til en overkommelig pris? Med vores eksklusive studierabat på måltidskasser kan du spare penge uden at gå på kompromis med kvaliteten. 
+                Få sunde, varierede retter leveret direkte til døren, så du kan bruge mere tid på studierne og mindre tid på madlavning og indkøb. Tjek vores måltidskasser med studierabat og gør hverdagen både nemmere og billigere!</p>
         </article>
         <img src="img/cham_dish.png" alt="Champignon ret med nudler og grøntsager">
     </section>
     <section class="bot-section">
-        <article>
-            <img src="img/kasse1.png" alt="">
-            <h4>Kasse 1</h4>
+        <article onclick="failPage()">
+            <img src="img/nogetmedaeg.png" alt="">
+            <h4>sundt og billigt</h4>
         </article>
-        <article>
-            <img src="img/kasse1.png" alt="">
-            <h4>Kasse 2</h4>
+        <article onclick="failPage()">
+            <img src="img/budding.png" alt="">
+            <h4>nemme Desserter</h4>
         </article>
-        <article>
-            <img src="img/kasse1.png" alt="">
-            <h4>Kasse 3</h4>
+        <article onclick="failPage()">
+            <img src="img/reje.png" alt="">
+            <h4>alt godt fra havet</h4>
         </article>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
     <?php include 'footer.php'; ?>
 </body>
 </html>
