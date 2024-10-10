@@ -5,6 +5,21 @@ function indexPage() {
     window.location.href = "index.php";
 }
 
+// linker til indhold siden
+function indholdPage() { 
+    window.location.href = "indhold.php";
+}
+
+// linker til studiekasse siden
+function studiePage() { 
+    window.location.href = "studiekassen.php";
+}
+
+// linker til bestilling siden
+function bestillingPage() { 
+    window.location.href = "zilmer.php";
+}
+
 // linker til 404 siden
 function failPage() { 
     window.location.href = "error-page.php";

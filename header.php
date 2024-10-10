@@ -4,8 +4,8 @@
         <div class="menu-item">
             <h3>Vores Måltidskasser</h3>
             <div class="dropdown">
-                <p onclick="failPage()">Ugens Menu</p>
-                <p onclick="failPage()">Budget Kassen</p>
+                <p onclick="indholdPage()">Ugens Menu</p>
+                <p onclick="studiePage()">Budget Kassen</p>
                 <p onclick="failPage()">Hurtig Kassen</p>
                 <p onclick="failPage()">Sundere Livstil Kassen</p>
                 <p onclick="failPage()">Pescetar Kassen</p>
@@ -43,7 +43,7 @@
     <div class="icons-menu">
         <img onclick="failPage()" class="icons" id="heart" src="img/heart.svg" alt="Hjerte">
         <div class="icons basket-container">
-            <img onclick="failPage()" id="basket" src="img/basket.svg" alt="Kurv">
+            <img onclick="bestillingPage()" id="basket" src="img/basket.svg" alt="Kurv">
         </div>
         <img onclick="failPage()" class="icons" id="profile" src="img/profile.svg" alt="Profil">
     </div>

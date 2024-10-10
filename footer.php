@@ -5,7 +5,7 @@
             <p onclick="failPage()">Smiley rapport</p>
             <p onclick="failPage()">Jobs</p>
             <p onclick="failPage()">Presse</p>
-            <p onclick="failPage()">Studierabat</p>
+            <p onclick="studiePage()">Studierabat</p>
         </div>
     </section>
     <section class="f-politik">
@@ -32,10 +32,10 @@
             <h3>so-me</h3>
         </div>
         <div class="f-icons">
-            <img onclick="failPage()" src="img/insta.svg" alt="Instagram">
-            <img onclick="failPage()" src="img/facebook.svg" alt="Facebook">
-            <img onclick="failPage()" src="img/tiktok.svg" alt="Tiktok">
-            <img onclick="failPage()" src="img/youtube.svg" alt="Youtube">
+            <img onclick="gennemLoader('https://www.instagram.com/magnus_damsgaard/', '2')" src="img/insta.svg" alt="Instagram">
+            <img onclick="gennemLoader()" src="img/facebook.svg" alt="Facebook">
+            <img onclick="gennemLoader()" src="img/tiktok.svg" alt="Tiktok">
+            <img onclick="gennemLoader()" src="img/youtube.svg" alt="Youtube">
         </div>
     </section>
     <section class="f-qr">
