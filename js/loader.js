@@ -5,7 +5,7 @@ function byt() {
     const andenKasse = document.getElementById('andet-billede');
     const temp = dinKasse.src
 
-     dinKasse.src = andenKasse.src;
-     andenKasse.src = temp;
+    dinKasse.src = andenKasse.src;
+    andenKasse.src = temp;
 }
 
