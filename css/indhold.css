@@ -17,7 +17,7 @@ main {
 }
 
 .description {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     width: 40%;
 }
 
@@ -37,16 +37,16 @@ main {
         transition: filter 0.5s, transform 0.7s;
     }
 
-    &:hover img {
+    &:hover img { /* Når et billede på siden bliver hover'et executer denne attribut som gør billederne mørkere */
         filter: brightness(0.5);
     }
     
-    & img:hover {
+    & img:hover { /* Billedet der er hover'et bliver større 
+                    og fordi det sidst-kaldte billedet lægger bagerst bruges z-index til at fremhæve det */
         transform: scale(1.015);
         filter: brightness(1);
         z-index: 2;
     }
-
 
     & img:nth-child(1) { grid-area: 1 / 2 / 3 / 4; }
     & img:nth-child(2) { grid-area: 1 / 1 / 2 / 2; }

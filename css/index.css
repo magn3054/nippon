@@ -8,12 +8,12 @@
     margin: 2vw 0;
 
     & img {
-        grid-area: 1 / 1 / 13 / 9;
+        grid-area: 1 / 1 / 13 / 9; /* Dette får billedet til at fylde hele grid'et */
         width: 100%;
     }
 
     & .nippon-scraper {
-        grid-area: 4 / 3 / 4 / 3;
+        grid-area: 4 / 3 / 4 / 3; /* Dette placerer teksten oven på det tidligere nævnte billede */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);

@@ -43,10 +43,10 @@ function gennemLoader(url='error-page.php', tid=3) {
     img.style.maxWidth = '30%';
     img.style.maxHeight = '30%';
 
-    modal.appendChild(img);
-    document.body.appendChild(modal);
+    modal.appendChild(img); // Tilføjer loader til modal-div'en
+    document.body.appendChild(modal); // Tilføjer modal-div'en til body
 
-    setTimeout(() => {
+    setTimeout(() => { // Timer til at fjerne modal og linke videre
         window.location.href = url;
     }, tid*1000);
 }
