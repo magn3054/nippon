@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nippon - Asiatiske Måltidskasser</title>
     <script defer src="js/links.js"></script>
+    <script defer src="js/loader.js"></script>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -59,12 +60,12 @@
                 <h2>Byt ud</h2>
                 <div class="bytter">
                     <div id="din-kasse">
-                        <img src="img/cham_dish.png" alt="">
+                        <img id="dit-billede" src="img/cham_dish.png" alt="">
                         <p>Din ret</p>
                     </div>
-                    <img id="byt-pil" src="img/big-arrow.svg" alt="">
+                    <img onclick="byt()" id="byt-pil" src="img/big-arrow.svg" alt="">
                     <div id="byt-til">
-                        <img src="img/dish-box.png" alt="">
+                        <img id="andet-billede" src="img/dish-box.png" alt="">
                         <p>Byt til ...</p>
                     </div>
                 </div>
