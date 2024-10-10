@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nippon - Asiatiske Måltidskasser</title>
     <script defer src="js/links.js"></script>
-    <script defer src="js/bytter.js"></script>
+    <script defer src="js/scrollToTop.js"></script>
+    <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/scrollToTop.css">
     <link rel="stylesheet" href="css/studie.css">
 </head>
 <body>
@@ -61,6 +63,7 @@
             </div>
         </section>
     </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <?php include 'footer.php'; ?>
 </body>
