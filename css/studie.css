@@ -87,7 +87,7 @@ main {
     letter-spacing: 0.2vw;
     background-color: var(--nipponRed);
     position: relative;
-
+    cursor: pointer;
 }
 
 .byt-ud {

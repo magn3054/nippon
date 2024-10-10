@@ -26,7 +26,7 @@
             <p>O</p>
             <p>N</p>
         </div>
-        <a href="error-page.html"><div class="ugens-menu">Ugens menu</div></a>
+        <div onclick="indholdPage()" class="ugens-menu">Ugens menu</div>
     </section>
     <section class="mid-section">
         <article>
@@ -37,7 +37,7 @@
         <img src="img/cham_dish.png" alt="Champignon ret med nudler og grøntsager">
     </section>
     <section class="bot-section">
-        <article onclick="failPage()">
+        <article onclick="studiePage()">
             <img src="img/nogetmedaeg.png" alt="">
             <h4>sundt og billigt</h4>
         </article>
@@ -51,7 +51,7 @@
         </article>
     </section>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    
+
     <?php include 'footer.php'; ?>
 </body>
 </html>

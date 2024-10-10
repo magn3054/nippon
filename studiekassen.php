@@ -41,7 +41,7 @@
             </ol>
         </section>
 
-        <div class="kob">
+        <div onclick="bestillingPage()" class="kob">
             <h2>Bestil nu</h2>
         </div>
 

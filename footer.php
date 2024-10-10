@@ -1,7 +1,7 @@
 <footer>
     <section class="f-nippon">
         <div class="f-tekst">
-            <h3 onclick="failPage()">nippon</h3>
+            <h3>nippon</h3>
             <p onclick="failPage()">Smiley rapport</p>
             <p onclick="failPage()">Jobs</p>
             <p onclick="failPage()">Presse</p>
@@ -10,7 +10,7 @@
     </section>
     <section class="f-politik">
         <div class="f-tekst">
-            <h3 onclick="failPage()">vores politik</h3>
+            <h3>vores politik</h3>
             <p onclick="failPage()">Privatlivspolitik</p>
             <p onclick="failPage()">Handelsbetingelser</p>
         </div>
@@ -32,10 +32,10 @@
             <h3>so-me</h3>
         </div>
         <div class="f-icons">
-            <img onclick="gennemLoader('https://www.instagram.com/magnus_damsgaard/', '2')" src="img/insta.svg" alt="Instagram">
-            <img onclick="gennemLoader()" src="img/facebook.svg" alt="Facebook">
-            <img onclick="gennemLoader()" src="img/tiktok.svg" alt="Tiktok">
-            <img onclick="gennemLoader()" src="img/youtube.svg" alt="Youtube">
+            <img onclick="gennemLoader('https://www.instagram.com/magnus_damsgaard/', '1')" src="img/insta.svg" alt="Instagram">
+            <img onclick="gennemLoader('https://www.facebook.com/profile.php?id=61564946295103', '1')" src="img/facebook.svg" alt="Facebook">
+            <img onclick="gennemLoader('https://www.tiktok.com/@getrickrolled401/video/7218398016015813915?q=rick%20roller&t=1728589943979', '1')" src="img/tiktok.svg" alt="Tiktok">
+            <img onclick="gennemLoader('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '1')" src="img/youtube.svg" alt="Youtube">
         </div>
     </section>
     <section class="f-qr">

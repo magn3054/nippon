@@ -1,5 +1,5 @@
 <header>
-    <img onclick="gennemLoader('error-page.php', '5')" id="main-logo" src="img/hvid-fisk.png" alt="Logo">
+    <img onclick="gennemLoader('error-page.php', '3')" id="main-logo" src="img/hvid-fisk.png" alt="Logo">
     <div id="submenus">
         <div class="menu-item">
             <h3>Vores Måltidskasser</h3>
