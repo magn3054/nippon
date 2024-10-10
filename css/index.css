@@ -9,7 +9,7 @@ body {
 .top-banner {
     width: 80%;
     padding: 3vh 2vw;
-    background-color: #e3dbdb;
+    background-color: var(--nipponGrey);
     display: grid;
     grid-template-columns: 1fr min-content min-content min-content 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(12, min-content);
@@ -59,7 +59,7 @@ body {
 }
 
 .mid-section {
-    background-color: #e3dbdb;
+    background-color: var(--nipponGrey);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
         flex-direction: column;
         width: 50%;
         padding: 2.5vh 3vw;
-        background-color: #e3dbdb;
+        background-color: var(--nipponGrey);
 
         & h4 {
             font-family: "Nuku Nuku";

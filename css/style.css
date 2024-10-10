@@ -2,6 +2,7 @@
     --nipponRed: #BC002D;
     --nipponBlue: #1C3563;
     --nipponBlack: #1E1E1E;
+    --nipponGrey: #E3DBDB;
 }
 
 * {
@@ -36,6 +37,7 @@ body {
 
 H1 {
     font-family: "Nuku Nuku";
+    letter-spacing: 0.2vw;
 }
 
 a {
