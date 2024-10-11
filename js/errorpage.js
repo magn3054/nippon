@@ -12,3 +12,4 @@ function fiskeSkift() {
         img.src = 'img/stiv-fisk.webp';
     });
 }
+window.onload = fiskeSkift; // Kører funktionen når siden er loadet ellers er der ikke noget som trigger funktionen
