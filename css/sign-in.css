@@ -25,24 +25,33 @@ h1  {
 }
 
 .firkanter div {
-  width: 3rem;
-  height: 3rem; 
+  width: 3rem; /* Adjust the size as needed */
+  height: 3rem; /* Adjust the size as needed */
   border: solid 3px var(--nipponBlue);
-  position: relative; 
-  margin: 2rem 5rem 0 5rem; 
+  position: relative; /* Position relative for the pseudo-element */
+  margin: 2rem 5rem 0 5rem; /* Space between squares */
 }
 
-.firkanter div:first-child {
-  background-color: rgba(74, 74, 124, 0.8); 
-  border: solid 3px var(--nipponBlue); 
+#firkant-et {
+  background-color: rgba(74, 74, 124, 0.8); /* Apply nipponBlue color with 80% opacity */
+  border: solid 3px var(--nipponBlue); /* Border with 100% opacity */
+}
+#firkant-to {
+  background-color: rgba(74, 74, 124, 0.8); /* Apply nipponBlue color with 80% opacity */
+  border: solid 3px var(--nipponBlue); /* Border with 100% opacity */
+}
+#firkant-tre {
+  background-color: rgba(74, 74, 124, 0.8); /* Apply nipponBlue color with 80% opacity */
+  border: solid 3px var(--nipponBlue); /* Border with 100% opacity */
 }
 
 .firkanter div::after {
   content: '';
   position: absolute;
   top: 50%;
-  right: -10.2rem; 
-  width: 10.1rem; 
+  right: -10.2rem; /* Half of the margin-right to center the line */
+  width: 10.1rem; /* Length of the connecting line */
+  height: 3px; /* Thickness of the line */
   background-color: var(--nipponBlue);
 }
 .firkanter div:last-child::after {
@@ -54,40 +63,71 @@ h1  {
   height: auto;
 }
 
-.felter .felter-to {
+.felter {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem; 
+  gap: 1.5rem; /* Adjust the gap between items as needed */
+}
+.felter-to {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem; /* Adjust the gap between items as needed */
 }
 
-.felter .row {
+.felter .row .felter-to{
   display: flex;
-  flex-direction: column; 
+  flex-direction: column; /* Stack label and input vertically */
+}
 
-.felter label {
-  margin-bottom: 0.5rem; 
+.felter label, .felter-to label {
+  display: flex;
+  gap: 0.5rem; /* Space between checkbox and label text */
+  font-size: 1.3rem; /* Specific font size */
+  padding: 0.5rem; /* Padding inside the label */
+  width: 100%; /* Ensure label takes full width */
+  border: solid 3px var(--nipponBlue);
+  color: var(--nipponBlue); /* Text color for better contrast */
 }
 
 .felter input, .felter textarea {
-  width: 100%; 
+  width: 100%; /* Ensure inputs take full width */
   border: solid 3px var(--nipponBlue);
-  color: var(--nipponBlue); 
-  padding: 0.5rem;
-  font-size: 1.3rem; 
+  color: var(--nipponBlue); /* Text color for better contrast */
+  padding: 0.5rem; /* Padding inside the input */
+  font-size: 1.3rem; /* Specific font size */
+}
+
+.felter-to input, .felter-to textarea {
+margin-top: 5rem;
+width: 100%; /* Ensure inputs take full width */
+border: solid 3px var(--nipponBlue);
+color: var(--nipponBlue); /* Text color for better contrast */
+padding: 0.5rem; /* Padding inside the input */
+font-size: 1rem; /* Specific font size */
+}
+
+.felter input[type="checkbox"] {
+  width: 1rem; /* Checkbox width */
+  height: 1rem; /* Checkbox height */
+  accent-color: white; /* Checkbox color */
 }
 
 .felter select {
-  width: 100%; 
+  width: 100%; /* Ensure select takes full width */
   border: solid 3px var(--nipponBlue);
-  color: var(--nipponBlue); 
-  padding: 0.5rem; 
-  font-size: 1.3rem; 
+  color: var(--nipponBlue); /* Text color for better contrast */
+  padding: 0.5rem; /* Padding inside the select */
+  font-size: 1.3rem; /* Specific font size */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
 }
 
-
-
-
-
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 1rem; /* Add some margin to the top */
+}
 
 .next-step {
   display: flex;
@@ -98,6 +138,29 @@ h1  {
   font-size: 1.3rem; /* Specific font size */
 }
 
+.done {
+  height: 95vh;
+  margin-top: 15vw;
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;
+}
+
+.done h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.done p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem 30vw 0 30vw;
+  font-size: 1.5rem;
+}
 
 footer {
   background-color: var(--nipponBlue);
