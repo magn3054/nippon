@@ -17,7 +17,7 @@ function studiePage() {
 
 // linker til bestilling siden
 function bestillingPage() { 
-    window.location.href = "zilmer.php";
+    window.location.href = "sign-in.html";
 }
 
 // linker til 404 siden
