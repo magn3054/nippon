@@ -6,6 +6,7 @@
     <title>Nippon - Asiatiske Måltidskasser</title>
     <script defer src="js/links.js"></script>
     <script defer src="js/scrollToTop.js"></script>
+    <script defer src="js/bytter.js"></script>
     <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
