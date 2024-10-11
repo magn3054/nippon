@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="menu-item">    
-            <h3 onclick="failPage()">Sådan Fungerer Det</h3>
+            <h3 onclick="gennemLoader('error-page.php', '3')">Sådan Fungerer Det</h3>
         </div>
         <div class="menu-item">
             <h3>Abonnement</h3>

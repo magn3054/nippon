@@ -42,7 +42,7 @@
             </ol>
         </section>
 
-        <div onclick="bestillingPage()" class="kob">
+        <div onclick="gennemLoader('sign-in.php', '3')" class="kob">
             <h2>Bestil nu</h2>
         </div>
 

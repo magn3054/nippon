@@ -17,7 +17,7 @@ function studiePage() {
 
 // linker til bestilling siden
 function bestillingPage() { 
-    window.location.href = "sign-in.html";
+    window.location.href = "sign-in.php";
 }
 
 // linker til 404 siden

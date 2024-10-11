@@ -14,59 +14,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/scrollToTop.css">
     <link rel="stylesheet" href="css/sign-in.css">
-    <link rel="stylesheet" href="css/sign-in-two.css">
 </head>
 <body>
-    <header>
-        <img onclick="gennemLoader('error-page.php', '5')" id="main-logo" src="img/hvid-fisk.png" alt="Logo">
-        <div id="submenus">
-            <div class="menu-item">
-                <h3>Vores Måltidskasser</h3>
-                <div class="dropdown">
-                    <p onclick="failPage()">Ugens Menu</p>
-                    <p onclick="failPage()">Budget Kassen</p>
-                    <p onclick="failPage()">Hurtig Kassen</p>
-                    <p onclick="failPage()">Sundere Livstil Kassen</p>
-                    <p onclick="failPage()">Pescetar Kassen</p>
-                    <p onclick="failPage()">Vegetar Kassen</p>
-                    <p onclick="failPage()">Øko Kassen</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <h3>Opskrifter</h3>
-                <div class="dropdown">
-                    <p onclick="failPage()">Nudler</p>
-                    <p onclick="failPage()">Sushi</p>
-                    <p onclick="failPage()">Ris</p>
-                    <p onclick="failPage()">Grønt</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <h3 onclick="failPage()">Sådan Fungerer Det</h3>
-            </div>
-            <div class="menu-item">
-                <h3>Abonnement</h3>
-                <div class="dropdown">
-                    <p onclick="failPage()">Fuldtid</p>
-                    <p onclick="failPage()">Flexi</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <h3>Om os</h3>
-                <div class="dropdown">
-                    <p onclick="failPage()">Kontakt</p>
-                </div>
-            </div>
-
-        </div>
-        <div class="icons-menu">
-            <img onclick="failPage()" class="icons" id="heart" src="img/heart.svg" alt="Hjerte">
-            <div class="icons basket-container">
-                <img onclick="failPage()" id="basket" src="img/basket.svg" alt="Kurv">
-            </div>
-            <img onclick="failPage()" class="icons" id="profile" src="img/profile.svg" alt="Profil">
-        </div>
-    </header>
+    <?php include 'header.php'; ?>
 
     <section class="sign-in" id="sign-in">
       <h1>Sign up</h1>
@@ -217,59 +167,12 @@
       <p>Du har nu oprettet en bruger hos Nippon</p>
       <p>Din nye måltidskasse er på vej og du kan nu glæde dig til en masse spændende opskrifter inspireret fra det japanske køkken</p>
       <div class="button-container">
-        <a href="index.html">
+        <a href="index.php">
           <button>Tilbage til forsiden</button>
         </a>
       </div>
     </section>
-    <!-- <?php include 'footer.php'; ?> -->
-    <footer>
-        <section class="f-nippon">
-            <div class="f-tekst">
-                <h3 onclick="failPage()">nippon</h3>
-                <p onclick="failPage()">Smiley rapport</p>
-                <p onclick="failPage()">Jobs</p>
-                <p onclick="failPage()">Presse</p>
-                <p onclick="failPage()">Studierabat</p>
-            </div>
-        </section>
-        <section class="f-politik">
-            <div class="f-tekst">
-                <h3 onclick="failPage()">vores politik</h3>
-                <p onclick="failPage()">Privatlivspolitik</p>
-                <p onclick="failPage()">Handelsbetingelser</p>
-            </div>
-        </section>
-        <div class="f-logo">
-            <img src="img/hvid-logo-tekst.png" alt="Logo">
-        </div>
-        <section class="f-find">
-            <div class="f-tekst">
-                <h3>find os</h3>
-                <p>Sønderhøj 30, 8260 Viby</p>
-                <p>CVR 31577971</p>
-                <p>Mail: <a href="info@fjordtours.dk" aria-label="Email"></a>nippon@eaaa.dk</p>
-                <p>Telefon: <a href="+4572286000" aria-label="Phone number"></a>+45 72286000 </p>
-            </div>
-        </section>
-        <section class="f-some">
-            <div class="f-tekst">
-                <h3>so-me</h3>
-            </div>
-            <div class="f-icons">
-                <img onclick="failPage()" src="img/insta.svg" alt="Instagram">
-                <img onclick="failPage()" src="img/facebook.svg" alt="Facebook">
-                <img onclick="failPage()" src="img/tiktok.svg" alt="Tiktok">
-                <img onclick="failPage()" src="img/youtube.svg" alt="Youtube">
-            </div>
-        </section>
-        <section class="f-qr">
-            <img class="qr" src="img/qr-code.png" alt="QR-code">
-        </section>
-        <section class="f-app">
-            <img onclick="failPage()" src="img/appstore.png" alt="">
-            <img onclick="failPage()" src="img/playstore.png" alt="">
-        </section>
-    </footer>
+    
+    <?php include 'footer.php'; ?>
 </body>
 </html>
