@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nippon - Asiatiske Måltidskasser</title>
+    <script defer src="js/links.js"></script>
+    <script defer src="js/scrollToTop.js"></script>
+    <link rel="icon" href="img/favicon-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/scrollToTop.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+</head>
+<body>
+    <header>
+        <img onclick="gennemLoader('error-page.php', '5')" id="main-logo" src="img/hvid-fisk.png" alt="Logo">
+        <div id="submenus">
+            <div class="menu-item">
+                <h3>Vores Måltidskasser</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Ugens Menu</p>
+                    <p onclick="failPage()">Budget Kassen</p>
+                    <p onclick="failPage()">Hurtig Kassen</p>
+                    <p onclick="failPage()">Sundere Livstil Kassen</p>
+                    <p onclick="failPage()">Pescetar Kassen</p>
+                    <p onclick="failPage()">Vegetar Kassen</p>
+                    <p onclick="failPage()">Øko Kassen</p>
+                </div>
+            </div>
+            <div class="menu-item">            
+                <h3>Opskrifter</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Nudler</p>
+                    <p onclick="failPage()">Sushi</p>
+                    <p onclick="failPage()">Ris</p>
+                    <p onclick="failPage()">Grønt</p>
+                </div>
+            </div>
+            <div class="menu-item">    
+                <h3 onclick="failPage()">Sådan Fungerer Det</h3>
+            </div>
+            <div class="menu-item">
+                <h3>Abonnement</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Fuldtid</p>
+                    <p onclick="failPage()">Flexi</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h3>Om os</h3>
+                <div class="dropdown">
+                    <p onclick="failPage()">Kontakt</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="icons-menu">
+            <img onclick="failPage()" class="icons" id="heart" src="img/heart.svg" alt="Hjerte">
+            <div class="icons basket-container">
+                <img onclick="failPage()" id="basket" src="img/basket.svg" alt="Kurv">
+            </div>
+            <img onclick="failPage()" class="icons" id="profile" src="img/profile.svg" alt="Profil">
+        </div>
+    </header>
+
+    <section class="sign-in">
+      <h1>Sign up</h1>
+
+      <section class="firkanter">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+
+      <img class="sign-in-person" src="img/sign-in-person.svg" alt="sign-in-ikon">
+      
+      <section class="felter">
+        <div class="row">
+          <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn" required>
+        </div>
+        <div class="row">
+          <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn" required>
+        </div>
+        <div class="row">
+          <input type="text" id="adresse" name="adresse" placeholder="Adresse" required>
+        </div>
+        <div class="row">
+          <input type="text" id="lejlighed-etage" name="lejlighed-etage" placeholder="Lejlighed/Etage">
+        </div>
+        <div class="row">
+          <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer" required>
+        </div>
+        <div class="row">
+          <input type="tel" id="tlf" name="tlf" placeholder="Tlf" required>
+        </div>
+        <div class="row">
+          <input type="text" id="faktureringsadresse" name="faktureringsadresse" placeholder="Faktureringsadresse">
+        </div>
+        <div class="row">
+          <textarea id="instruktioner-til-chauffor" name="instruktioner-til-chauffor" placeholder="Instruktioner til chauffør"></textarea>
+        </div>
+      </section>
+      
+      <input class="next-step" type="submit" value="Næste step">
+    </section>
+
+    <section class="sign-in">
+      <h1>Sign up</h1>
+
+      <section class="firkanter">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      
+      <section class="felter-to">
+        <div class="row">
+          <select id="antal-personer" name="antal-personer" required>
+            <option value="" disabled selected hidden>Antal personer</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="row">
+          <select id="abonnement" name="abonnement" required>
+            <option value="" disabled selected hidden>Abonnement</option>
+            <option value="basic">Basic</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+          </select>
+        </div>
+        <div class="row">
+          <input type="text" id="budgetvenligt" name="budgetvenligt" placeholder="Budgetvenligt" required>
+        </div>
+        <div class="row">
+          <input type="text" id="nemt-og-hurtigt" name="nemt-og-hurtigt" placeholder="Nemt og hurtigt">
+        </div>
+        <div class="row">
+          <input type="text" id="vegetarisk" name="vegetarisk" placeholder="Vegetarisk" required>
+        </div>
+        <div class="row">
+          <input type="text" id="kod-og-gront" name="kod-og-gront" placeholder="Kød og grønt" required>
+        </div>
+        <div class="row">
+          <input type="text" id="familievenligt" name="familievenligt" placeholder="Familievenligt">
+        </div>
+        <div class="row">
+          <input type="text" id="fisk-og-gront" name="fisk-og-gront" placeholder="Fisk og grønt">
+        </div>
+      </section>
+      
+      <input class="next-step" type="submit" value="Næste step">
+    </section>
+
+
+
+
+
+    <!-- <?php include 'footer.php'; ?> -->
+    <footer>
+        <section class="f-nippon">
+            <div class="f-tekst">
+                <h3 onclick="failPage()">nippon</h3>
+                <p onclick="failPage()">Smiley rapport</p>
+                <p onclick="failPage()">Jobs</p>
+                <p onclick="failPage()">Presse</p>
+                <p onclick="failPage()">Studierabat</p>
+            </div>
+        </section>
+        <section class="f-politik">
+            <div class="f-tekst">
+                <h3 onclick="failPage()">vores politik</h3>
+                <p onclick="failPage()">Privatlivspolitik</p>
+                <p onclick="failPage()">Handelsbetingelser</p>
+            </div>
+        </section>
+        <div class="f-logo">
+            <img src="img/hvid-logo-tekst.png" alt="Logo">
+        </div>
+        <section class="f-find">
+            <div class="f-tekst">
+                <h3>find os</h3>
+                <p>Sønderhøj 30, 8260 Viby</p>
+                <p>CVR 31577971</p>
+                <p>Mail: <a href="info@fjordtours.dk" aria-label="Email"></a>nippon@eaaa.dk</p>
+                <p>Telefon: <a href="+4572286000" aria-label="Phone number"></a>+45 72286000 </p>
+            </div>
+        </section>
+        <section class="f-some">
+            <div class="f-tekst">
+                <h3>so-me</h3>
+            </div>
+            <div class="f-icons">
+                <img onclick="failPage()" src="img/insta.svg" alt="Instagram">
+                <img onclick="failPage()" src="img/facebook.svg" alt="Facebook">
+                <img onclick="failPage()" src="img/tiktok.svg" alt="Tiktok">
+                <img onclick="failPage()" src="img/youtube.svg" alt="Youtube">
+            </div>
+        </section>
+        <section class="f-qr">
+            <img class="qr" src="img/qr-code.png" alt="QR-code">
+        </section>
+        <section class="f-app">
+            <img onclick="failPage()" src="img/appstore.png" alt="">
+            <img onclick="failPage()" src="img/playstore.png" alt="">
+        </section>
+    </footer>
+</body>
+</html>
